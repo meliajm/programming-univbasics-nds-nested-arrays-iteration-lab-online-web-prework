@@ -28,7 +28,7 @@ def find_greater_pair(src)
     row_index += 1
   end
   new_array.sum
-  new_array
+  
 end
 
 def total_even_pairs(src)

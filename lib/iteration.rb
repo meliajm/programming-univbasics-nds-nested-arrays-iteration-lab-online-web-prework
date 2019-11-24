@@ -11,7 +11,7 @@ def join_ingredients(src)
     # element_index = 0
     # while row_index < src[row_index].count do
       # puts spice_rack[row_index][element_index]
-    puts "I love" + src[row_index][0] "and" src[row_index][1] on my pizza"
+    puts "I love" + src[row_index][0] "and" src[row_index][1] "on my pizza"
   end
   row_index += 1
   #end 

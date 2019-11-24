@@ -19,9 +19,13 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   row_index = 0 
+  new_array = []
   while row_index < src.count do 
     src[row_index] = src[row_index].sort 
-    
+    new_array.push(src[row_index][-1])
+    row_index += 1
+  end
+  new_array
 end
 
 def total_even_pairs(src)
